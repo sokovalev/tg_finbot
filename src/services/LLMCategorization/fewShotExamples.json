@@ -1,0 +1,22 @@
+[
+  { "role": "user", "text": "пиво и чипсы 850" },
+  {
+    "role": "assistant",
+    "text": "{\"amount\":850,\"currency\":\"RUB\",\"category\":\"Алкоголь и табак\"}"
+  },
+  { "role": "user", "text": "порошок и губки 600" },
+  {
+    "role": "assistant",
+    "text": "{\"amount\":600,\"currency\":\"RUB\",\"category\":\"Товары для дома\"}"
+  },
+  { "role": "user", "text": "лего племяннику 5000" },
+  {
+    "role": "assistant",
+    "text": "{\"amount\":5000,\"currency\":\"RUB\",\"category\":\"Подарки\"}"
+  },
+  { "role": "user", "text": "кофе и круассан 12 eur" },
+  {
+    "role": "assistant",
+    "text": "{\"amount\":12,\"currency\":\"EUR\",\"category\":\"Кафе и рестораны\"}"
+  }
+]
