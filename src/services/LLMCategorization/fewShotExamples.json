@@ -2,48 +2,48 @@
   { "role": "user", "text": "семена и грунт 400" },
   {
     "role": "assistant",
-    "text": "{\"amount\":400,\"currency\":\"RUB\",\"category\":\"Товары для дома\"}"
+    "text": "{\"amount\":400,\"category\":\"Товары для дома\"}"
   },
 
   { "role": "user", "text": "корм вискас 200" },
   {
     "role": "assistant",
-    "text": "{\"amount\":200,\"currency\":\"RUB\",\"category\":\"Питомцы\"}"
+    "text": "{\"amount\":200,\"category\":\"Питомцы\"}"
   },
 
   { "role": "user", "text": "памперсы 1500" },
   {
     "role": "assistant",
-    "text": "{\"amount\":1500,\"currency\":\"RUB\",\"category\":\"Дети\"}"
+    "text": "{\"amount\":1500,\"category\":\"Дети\"}"
   },
 
   { "role": "user", "text": "палатка 5000" },
   {
     "role": "assistant",
-    "text": "{\"amount\":5000,\"currency\":\"RUB\",\"category\":\"Путешествия и отели\"}"
+    "text": "{\"amount\":5000,\"category\":\"Путешествия и отели\"}"
   },
 
   { "role": "user", "text": "netflix 12 eur" },
   {
     "role": "assistant",
-    "text": "{\"amount\":12,\"currency\":\"EUR\",\"category\":\"Подписки и сервисы\"}"
+    "text": "{\"amount\":12,\"category\":\"Подписки и сервисы\"}"
   },
 
   { "role": "user", "text": "цветы маме 1500" },
   {
     "role": "assistant",
-    "text": "{\"amount\":1500,\"currency\":\"RUB\",\"category\":\"Подарки\"}"
+    "text": "{\"amount\":1500,\"category\":\"Подарки\"}"
   },
 
   { "role": "user", "text": "пиво и чипсы 500" },
   {
     "role": "assistant",
-    "text": "{\"amount\":500,\"currency\":\"RUB\",\"category\":\"Алкоголь и табак\"}"
+    "text": "{\"amount\":500,\"category\":\"Алкоголь и табак\"}"
   },
 
   { "role": "user", "text": "вода 30" },
   {
     "role": "assistant",
-    "text": "{\"amount\":30,\"currency\":\"RUB\",\"category\":\"Продукты\"}"
+    "text": "{\"amount\":30,\"category\":\"Продукты\"}"
   }
 ]
