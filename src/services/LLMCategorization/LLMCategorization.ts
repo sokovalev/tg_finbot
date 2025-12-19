@@ -2,7 +2,6 @@ import OpenAI from "openai";
 import fs from "fs";
 import path from "path";
 import { env } from "../../lib/env";
-import fewShotExamples from "./fewShotExamples.json";
 import jsonSchema from "./jsonSchema.json";
 
 const systemPrompt = fs.readFileSync(
@@ -23,13 +22,7 @@ export async function LLMCategorizeExpense(message: string) {
     const response = await client.responses.create({
       model: `gpt://${FOLDER_ID}/yandexgpt-lite/latest`,
       instructions: systemPrompt,
-      input: [
-        ...fewShotExamples.map((ex) => ({
-          role: ex.role as "user" | "assistant",
-          content: ex.text,
-        })),
-        { role: "user" as const, content: message },
-      ],
+      input: [{ role: "user" as const, content: message }],
       text: {
         format: {
           type: "json_schema" as const,
