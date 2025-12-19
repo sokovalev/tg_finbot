@@ -5,10 +5,6 @@
     "type": "object",
     "properties": {
       "amount": { "type": "number", "description": "Сумма транзакции" },
-      "currency": {
-        "type": "string",
-        "description": "Код валюты (RUB, USD, EUR). Default: RUB."
-      },
       "category": {
         "type": "string",
         "enum": [

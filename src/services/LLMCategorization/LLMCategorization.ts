@@ -4,7 +4,7 @@ import fewShotExamples from "./fewShotExamples.json";
 import jsonSchema from "./jsonSchema.json";
 
 const systemPrompt = `Роль: Строгий классификатор транзакций.
-Задача: Выбрать категорию и вернуть сумму КАК ЕСТЬ (без конвертации валют).
+Задача: Выбрать категорию и вернуть сумму.
 
 ПРАВИЛА (Сверху вниз):
 
@@ -93,7 +93,7 @@ export async function LLMCategorizeExpense(message: string) {
 
     try {
       const parsed = JSON.parse(content);
-      return parsed;
+      return parsed as { amount: number; currency: string; category: string };
     } catch (e) {
       console.error("Failed to parse JSON response:", content);
       console.error(message);
